@@ -24,7 +24,7 @@ const HomePage = () => {
         <PartnerSection />
         <ServiceSection />
         <About />
-        {/*        <FunFactSection />
+        {/*     <FunFactSection />
                 <CountrySection />
                 <TeamSection />
                 <Testimonial />
