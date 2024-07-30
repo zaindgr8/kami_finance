@@ -602,7 +602,10 @@ export function NavBar({ ClickHandler }) {
             </li>
             <li className="menu-item-has-children">
               <Link onClick={ClickHandler} href="/">
-                <span>Will Preparation Service</span>
+                <span>
+                  Will Preparation <br />
+                  Service
+                </span>
               </Link>
             </li>
             <li className="menu-item-has-children">
