@@ -13,5 +13,4 @@ const nextConfig = {
   //   includePaths: [path.join(__dirname, "./styles/sass")],
   // },
 };
-
 module.exports = nextConfig;
