@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
       />
       <meta name="twitter:image" content="/path/to/large/image.jpg" />{" "} */}
       {/* Update with the correct path */}
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="public/favicon.ico" />
       <Component {...pageProps} />
     </div>
   );
