@@ -21,10 +21,10 @@ const HomePage = () => {
       <div>
         <Header />
         <Hero />
-        {/* <PartnerSection />
-                <ServiceSection />
-                <About />
-                <FunFactSection />
+        <PartnerSection />
+        <ServiceSection />
+        <About />
+        {/*        <FunFactSection />
                 <CountrySection />
                 <TeamSection />
                 <Testimonial />
