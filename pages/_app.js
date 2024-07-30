@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <title>Kami Finance - Business and Visa Consultancy</title>
+      <link rel="icon" href="/public/favicon.ico" />
       <meta
         name="description"
         content="Kami Finance provides expert business and visa consultancy services to help you navigate complex processes with ease."
@@ -48,7 +49,7 @@ function MyApp({ Component, pageProps }) {
       />
       <meta name="twitter:image" content="/path/to/large/image.jpg" />{" "} */}
       {/* Update with the correct path */}
-      <link rel="icon" href="public/favicon.ico" />
+
       <Component {...pageProps} />
     </div>
   );
