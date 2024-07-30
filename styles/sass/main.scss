@@ -45,58 +45,32 @@
     
 
 -----------------------------------------------------------------------------------*/
+
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
 // abstracts scss
-@import
-    'abstracts/variables',
-    'abstracts/mixins';
+@import "abstracts/variables", "abstracts/mixins";
 
 // base scss
-@import 
-    'base/base',
-    'base/spacing',
-    'base/typography',
-    'base/animation',
-    'base/overlay';
+@import "base/base", "base/spacing", "base/typography", "base/animation",
+  "base/overlay";
 
 // layout scss
-@import 
-    'layout/header',
-    'layout/navigation';
- 
+@import "layout/header", "layout/navigation";
+
 // components scss
-@import 
-    'components/buttons',
-    'components/global',
-    'components/hero',
-    'components/brand',
-    'components/service',
-    'components/about',
-    'components/counter',
-    'components/country',
-    'components/team',
-    'components/testimonial',
-    'components/faq',
-    'components/blog',
-    'components/newsletter',
-    'components/contact',
-    'components/feature',
-    'components/cta',
-    'components/fanfact',
-    'components/mobile-menu',
-    'components/coaching',
-    'components/book-form',
-    'components/breadcrumb',
-    'components/preloader',
-    'components/package',
-    'components/category',
-    'components/destination',
-    'components/sidebar',
-    'components/backtotop',
-    'components/search',
-    'components/sec-title';
-
+@import "components/buttons", "components/global", "components/hero",
+  "components/brand", "components/service", "components/about",
+  "components/counter", "components/country", "components/team",
+  "components/testimonial", "components/faq", "components/blog",
+  "components/newsletter", "components/contact", "components/feature",
+  "components/cta", "components/fanfact", "components/mobile-menu",
+  "components/coaching", "components/book-form", "components/breadcrumb",
+  "components/preloader", "components/package", "components/category",
+  "components/destination", "components/sidebar", "components/backtotop",
+  "components/search", "components/sec-title";
 
 // layout scss
-@import
-    'layout/footer';
- 
+@import "layout/footer";

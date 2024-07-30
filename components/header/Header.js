@@ -7,9 +7,10 @@ import icon4 from "/public/images/icon/search.svg";
 import icon5 from "/public/images/icon/us_flag.png";
 import icon6 from "/public/images/icon/arrow_down.svg";
 import logo from "/public/images/logo/logo.svg";
+import s1 from "/public/images/logo/logo.webp";
 import MobileMenu from "../MobileMenu/MobileMenu";
+import { NavBar } from "./Navbar";
 import Image from "next/image";
-import { NavBar } from "./NewNavbar";
 
 const Header = (props) => {
   const [searchActive, setSearchState] = useState(false);
@@ -49,7 +50,7 @@ const Header = (props) => {
           <div className="header__top ul_li_between">
             <div className="header__top-cta">
               <Image src={icon1} alt="" />
-              <span>Customer Support :</span> +91 590 088 55
+              <span>Customer Support :</span> +971 502 694 269
             </div>
             <ul className="header__top-info ul_li">
               <li>
@@ -58,7 +59,7 @@ const Header = (props) => {
               </li>
               <li>
                 <Image src={icon3} alt="" />
-                456 Elm Avenue Springfield, IL 62701
+                Abu Dhabi, United Arab Emirates
               </li>
             </ul>
           </div>
@@ -71,9 +72,10 @@ const Header = (props) => {
       >
         <div className="container">
           <div className="header__inner ul_li_between">
+            {/* first logo */}
             <div className="header__logo">
               <Link onClick={ClickHandler} href="/">
-                <Image src={logo} alt="" />
+                <Image src={s1} alt="" />
               </Link>
             </div>
             <div className="main-menu__wrap ul_li navbar navbar-expand-lg">
@@ -100,7 +102,7 @@ const Header = (props) => {
                 </span>
               </li>
               <li>
-                <div className="header__language">
+                {/* <div className="header__language">
                   <ul>
                     <li>
                       <Link
@@ -135,7 +137,7 @@ const Header = (props) => {
                       </ul>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </li>
             </ul>
           </div>
@@ -150,7 +152,7 @@ const Header = (props) => {
             ></div>
             <div className="xb-logo-mobile xb-hide-xl">
               <Link onClick={ClickHandler} href="/" rel="home">
-                <Image src={logo} alt="" />
+                <Image src={s1} alt="" />
               </Link>
             </div>
             <div className="xb-header-mobile-search xb-hide-xl">

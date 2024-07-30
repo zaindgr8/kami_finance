@@ -46,7 +46,7 @@ const Hero = () => {
       className="hero hero__style-one bg_img"
       style={{
         backgroundImage: `url(${slidesData[currentSlide].image})`,
-        transition: "background-image 1s ease-in-out", // Smooth transition
+        transition: "background-image 1s ease-in-out",
       }}
     >
       <div className="container">
@@ -93,10 +93,10 @@ const Hero = () => {
               <Slide direction="up" triggerOnce={false} duration={1800}>
                 <div>
                   <div className="btns">
-                    <Link className="thm-btn" href="/contact">
+                    <Link href="" className="thm-btn">
                       Book Appointment
                     </Link>
-                    <Link className="thm-btn thm-btn--white" href="/about">
+                    <Link href="" className="thm-btn thm-btn--white">
                       Read Story
                     </Link>
                   </div>
